@@ -4,15 +4,15 @@
     "name": "Jumping Jack",
     "img": "https://images.unsplash.com/photo-1514994667787-b48ca37155f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
     "descrip": "A standing person jumps to a position with the legs and arms spread out and then jumps back to the original position.",
-    "age": 22,
+    "age": "22-25",
     "time": 20
   },
   {
     "id": "6334706affd1d48c9960ead8",
     "name": "Cobra Stretch",
     "img": "https://images.unsplash.com/photo-1531403939386-c08a16cd7eef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
-    "descrip": "A heart-opening backbend that stretches your entire upper body",
-    "age": 25,
+    "descrip": "a gentle backbend practiced from a face-down position that warms and strengthens the spine while opening the chest.",
+    "age": "20-25",
     "time": 15
   },
   {
@@ -20,7 +20,7 @@
     "name": "Chest Stretch",
     "img": "https://images.unsplash.com/photo-1597452485677-d661670d9640?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80",
     "descrip": "With the side of your body facing a wall, place your left palm on the wall.",
-    "age": 22,
+    "age": "22-30",
     "time": 19
   },
   {
@@ -28,7 +28,7 @@
     "name": "Russian Twist",
     "img": "https://images.unsplash.com/photo-1601422407692-ec4eeec1d9b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=725&q=80",
     "descrip": "Aitting with your legs bent and your lower back straight",
-    "age": 22,
+    "age": "24-25",
     "time": 19
   },
   {
@@ -36,7 +36,7 @@
     "name": "Plank",
     "img": "https://images.unsplash.com/photo-1589955791915-526198ae4ee9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "descrip": "A long, narrow, flat piece of wood or similar material, of the type used for making floors",
-    "age": 22,
+    "age": "22-25",
     "time": 15
   },
   {
@@ -44,7 +44,7 @@
     "name": "Arm Raises",
     "img": "https://images.unsplash.com/photo-1508050249562-b28a87434496?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "descrip": "Exercise designed to strengthen the arm muscles",
-    "age": 22,
+    "age": "20-25",
     "time": 17
   },
   {
@@ -52,7 +52,7 @@
     "name": "Burpees",
     "img": "https://images.unsplash.com/photo-1646629073384-a5d8ce11f912?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
     "descrip": "Stand with your feet shoulder-width apart and your arms by your sides.",
-    "age": 20,
+    "age": "25-30",
     "time": 18
   },
   {
@@ -60,7 +60,7 @@
     "name": "Squats",
     "img": "https://images.unsplash.com/photo-1567598508481-65985588e295?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "descrip": "A strength exercise in which the trainee lowers their hips from a standing position and then stands back up",
-    "age": 21,
+    "age": "22-25",
     "time": 16
   },
   {
@@ -68,7 +68,7 @@
     "name": "Wall Sit",
     "img": "https://images.unsplash.com/photo-1548933122-5fedf3661c57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
     "descrip": "A wall sit is an isometric exercise involving muscle contraction while in a static position.",
-    "age": 24,
+    "age": "24-25",
     "time": 20
   }
 ]
