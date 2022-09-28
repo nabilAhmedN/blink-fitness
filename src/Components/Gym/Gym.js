@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import Workouts from '../Workouts/Workouts';
+import Profile from '../Profile/Profile';
+import Workout from '../Workout/Workout';
 
 const Gym = () => {
 
     const [ workouts , setWorkouts  ] = useState([]);
+    const [ time , setTime ] = useState([]);
 
     useEffect(() => {
         fetch('gym.json')
@@ -11,6 +13,10 @@ const Gym = () => {
         .then( data => setWorkouts(data))
     },[])
 
+    const handleAddToTime = (workout) => {
+        const newTime = [...time, workout];
+        setTime(newTime)
+    }
 
     return (
         // <div className='container'>
@@ -30,14 +36,14 @@ const Gym = () => {
         //     </div>
         // </div>
 
-        <div className="ms-4">
+        <div className="container">
             <div className="row gx-3">
                 <div className="col-9">
                     <div>
                         <h3>Select Today's Exercise</h3>
                         <div className='row g-2'>
                             {
-                                workouts.map(workout => <Workouts key={workout.id} workout={workout}></Workouts>)
+                                workouts.map(workout => <Workout key={workout.id} workout={workout} handleAddToTime = {handleAddToTime}></Workout>)
                             }
                         </div>
                     </div>
@@ -46,6 +52,7 @@ const Gym = () => {
                 <div className="col-3">
                     <div>
                         <h3>Profile</h3>
+                        <Profile time={time}></Profile>
                     </div>
                 </div>
             </div>
