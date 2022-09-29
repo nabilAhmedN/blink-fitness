@@ -1,6 +1,7 @@
 import React from 'react';
 import './Profile.css'
 import logo from '../images/profile.jpg'
+import Toast from '../Toast/Toast';
 
 const Profile = (props) => {
     
@@ -74,7 +75,8 @@ const Profile = (props) => {
             <h6 className='rounded-3 p-3 mt-3 exer-time'>Break time: <small className='break-time'>10seconds</small></h6>
 
             <div>
-                <button className='mt-5 btn btn-primary w-100'>Activity Completed</button>
+                {/* <button className='mt-5 btn btn-primary w-100'>Activity Completed</button> */}
+                <Toast></Toast>
             </div>
         </div>
         
