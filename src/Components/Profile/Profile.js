@@ -83,7 +83,7 @@ const Profile = (props) => {
 
             <h4 className='mt-5'>Exercise Details</h4>
             <h6 className='rounded-3 p-3 mt-3 exer-time'>Exercise time: <small className='ps-5'>{totalTime}seconds</small></h6>
-            
+
             <Break></Break>
 
             <div>
