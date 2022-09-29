@@ -3,7 +3,7 @@ import logo from '../images/logo.png'
 
 const Header = () => {
     return (
-        <div className='navbar p-4'>
+        <div className='navbar p-4 '>
 
             <a className='d-flex text-decoration-none align-items-center' href="/">
                 <img src={logo} alt="" width="60" height="60" className='me-2'/>

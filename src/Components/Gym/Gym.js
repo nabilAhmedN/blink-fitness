@@ -22,9 +22,9 @@ const Gym = () => {
 
         <div className="container">
             <div className="row g-3">
-                <div className="col-lg-9 col-sm-12">
+                <div className="col-lg-9 col-md-6 col-sm-12">
                     <div>
-                        <h3>Select Today's Exercise</h3>
+                        <h3>Select Today's WorkOut</h3>
                         <div className='row g-2'>
                             {
                                 workouts.map(workout => <Workout key={workout.id} workout={workout} handleAddToTime = {handleAddToTime}></Workout>)
@@ -33,7 +33,7 @@ const Gym = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-3 col-sm-12">
+                <div className="col-lg-3 col-md-6 col-sm-12">
                     <div>
                         {/* <h3>Profile</h3> */}
                         <Profile time={time}></Profile>

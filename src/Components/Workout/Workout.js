@@ -5,7 +5,7 @@ const Workout = (props) => {
     const { img, name, descrip, age, time } = props.workout;
 
     return (
-        <div className='col-lg-4 col-sm-12'>
+        <div className='col-lg-4 col-md-12 col-sm-12'>
             <div className='card'>
                     <img src={img} alt="" className='img'/>
                     <div className='card-body'>
