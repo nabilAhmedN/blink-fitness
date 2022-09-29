@@ -19,22 +19,6 @@ const Gym = () => {
     }
 
     return (
-        // <div className='container'>
-        //     <div className='row gx-3'>
-        //         <div className='col-9 border'>
-        //             <h3>Select Today's Exercise</h3>
-        //             <div className='row g-2'>
-        //                 {
-        //                     workouts.map(workout => <Workouts key={workout.id} workout={workout}></Workouts>)
-        //                 }
-        //             </div>
-        //         </div>
-
-        //         <div className='col-3 border'>
-        //             <h3>profile</h3>
-        //         </div>
-        //     </div>
-        // </div>
 
         <div className="container">
             <div className="row g-3">

@@ -1,10 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Profile.css'
 import logo from '../images/profile.jpg'
 import Toast from '../Toast/Toast';
+import Break from '../Break/Break';
 
 const Profile = (props) => {
     
+    const [click, setClick] = useState([])
     const {time} = props;
     let totalTime = 0;
 
@@ -12,11 +14,20 @@ const Profile = (props) => {
         totalTime = totalTime + workout.time;
     }
 
-    const button1 = 10;
-    const button2 = 10;
-    const button3 = 10;
-    const button4 = 10;
-    const button5 = 10;
+    // const button1 = 10;
+    // const button2 = 10;
+    // const button3 = 10;
+    // const button4 = 10;
+    // const button5 = 10;
+    const btn = [10, 20, 30, 40, 50];
+    const [btn1, btn2, btn3, btn4, btn5] = btn;
+
+    const addToDb = (btn) => {
+        setClick (btn);
+        localStorage.setItem('breakTime', btn);
+        const newClick = [...click, btn]
+        setClick(newClick)
+    }
 
     return (
         <div>
@@ -63,19 +74,19 @@ const Profile = (props) => {
             <h4 className=''> Add a Break </h4>
 
             <div className='d-flex justify-content-evenly rounded p-2 time-cart'>
-                <button className='btn btn-light rounded-circle p-2'>{button1}s</button>
-                <button className='btn btn-light rounded-circle p-2'>{button2}s</button>
-                <button className='btn btn-light rounded-circle p-2'>{button3}s</button>
-                <button className='btn btn-light rounded-circle p-2'>{button4}s</button>
-                <button className='btn btn-light rounded-circle p-2'>{button5}s</button>
+                <button className='btn btn-light rounded-circle p-2' onClick={() => addToDb(btn1)}>{btn1}s</button>
+                <button className='btn btn-light rounded-circle p-2' onClick={() => addToDb(btn2)}>{btn2}s</button>
+                <button className='btn btn-light rounded-circle p-2' onClick={() => addToDb(btn3)}>{btn3}s</button>
+                <button className='btn btn-light rounded-circle p-2' onClick={() => addToDb(btn4)}>{btn4}s</button>
+                <button className='btn btn-light rounded-circle p-2' onClick={() => addToDb(btn5)}>{btn5}s</button>
             </div>
 
             <h4 className='mt-5'>Exercise Details</h4>
             <h6 className='rounded-3 p-3 mt-3 exer-time'>Exercise time: <small className='ps-5'>{totalTime}seconds</small></h6>
-            <h6 className='rounded-3 p-3 mt-3 exer-time'>Break time: <small className='break-time'>10seconds</small></h6>
+            
+            <Break></Break>
 
             <div>
-                {/* <button className='mt-5 btn btn-primary w-100'>Activity Completed</button> */}
                 <Toast></Toast>
             </div>
         </div>
