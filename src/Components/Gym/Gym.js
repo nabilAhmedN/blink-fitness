@@ -20,7 +20,7 @@ const Gym = () => {
 
     return (
 
-        <div className="container">
+        <div className="m-4">
             <div className="row g-3">
                 <div className="col-lg-9 col-md-6 col-sm-12">
                     <div>
