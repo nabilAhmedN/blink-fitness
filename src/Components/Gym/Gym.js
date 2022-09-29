@@ -37,8 +37,8 @@ const Gym = () => {
         // </div>
 
         <div className="container">
-            <div className="row gx-3">
-                <div className="col-9">
+            <div className="row g-3">
+                <div className="col-lg-9 col-sm-12">
                     <div>
                         <h3>Select Today's Exercise</h3>
                         <div className='row g-2'>
@@ -49,9 +49,9 @@ const Gym = () => {
                     </div>
                 </div>
 
-                <div className="col-3">
+                <div className="col-lg-3 col-sm-12">
                     <div>
-                        <h3>Profile</h3>
+                        {/* <h3>Profile</h3> */}
                         <Profile time={time}></Profile>
                     </div>
                 </div>
